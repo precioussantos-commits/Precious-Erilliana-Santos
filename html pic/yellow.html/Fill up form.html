@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <title>file</title>
+   <body style="background-color: lightcoral">
+    <h1>Type Your Status</h1>
+    <p><b>Self Introduction</b></p>
+    <form action="/submit-form-endpoint" method="POST">
+          <!-- Username Field -->
+      <div>
+         <label for="username">Username:</label>
+         <input type="text" id="username" name="username" required>
+      </div>
+
+         <!-- Age Field -->
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120">
+      </div>
+      
+         <!-- Birthdate Field -->
+     <div>
+       <label for="birthdate">Birthdate:</label>
+       <input type="date" id="birthdate" name="birthdate">
+     </div> 
+         <!-- Password Field -->
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      
+         <!-- Grade Level Section -->
+      <div>
+        <label for="grade-level">Grade Level:</label>
+        <select id="grade-level" name="grade_level">
+         <option value="" disabled selected>Select your grade</option>
+         <option value="elementary">Elementary</option>
+         <option value="high-school">High School</option>
+         <option value="senior-high">Senior-high</option>
+         <option value="college">College</option>
+        </select>
+      </div>
+
+         <!-- Submit Button below -->
+      <div>
+       <button type="submit">Submit</button>
+      </div>
+     </form> 
+   </body>
+</html>

@@ -1,0 +1,15 @@
+p{
+    color: rgb(3, 131, 124);
+    font-size: larger;
+}
+lo{
+    color: rgb(29, 45, 119);
+}
+lu{
+    color: rgb(29, 28, 109);
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: red;
+}

@@ -1,0 +1,14 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Montenegrin Gothic One", serif;
+    font-weight: 400;
+    font-style: medium;
+
+    text-align: center;
+
+    text-shadow: 5px 5px 7px darkgray;
+}
